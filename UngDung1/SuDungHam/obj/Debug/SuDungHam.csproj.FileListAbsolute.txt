@@ -1,0 +1,14 @@
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe.config
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\bin\Debug\SuDungHam.pdb
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe.config
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\bin\Debug\SuDungHam.pdb
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.csprojAssemblyReference.cache
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb

@@ -1,0 +1,14 @@
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\bin\Debug\SuDungMang.exe.config
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\bin\Debug\SuDungMang.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\bin\Debug\SuDungMang.pdb
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.pdb
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\bin\Debug\SuDungMang.exe.config
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\bin\Debug\SuDungMang.exe
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\bin\Debug\SuDungMang.pdb
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.csprojAssemblyReference.cache
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.exe
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.pdb

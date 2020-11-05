@@ -1,0 +1,14 @@
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.exe.config
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.pdb
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.pdb
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.exe.config
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.exe
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.pdb
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csprojAssemblyReference.cache
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.exe
+F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.pdb
