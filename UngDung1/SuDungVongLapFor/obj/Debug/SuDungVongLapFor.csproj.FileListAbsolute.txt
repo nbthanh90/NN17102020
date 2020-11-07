@@ -12,3 +12,10 @@ F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongL
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csproj.CoreCompileInputs.cache
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.exe
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.exe.config
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\bin\Debug\SuDungVongLapFor.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csprojAssemblyReference.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.csproj.CoreCompileInputs.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungVongLapFor\obj\Debug\SuDungVongLapFor.pdb

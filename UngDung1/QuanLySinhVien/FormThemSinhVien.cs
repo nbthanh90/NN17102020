@@ -16,5 +16,59 @@ namespace QuanLySinhVien
         {
             InitializeComponent();
         }
+
+        private void FormThemSinhVien_Load(object sender, EventArgs e)
+        {
+            List<GioiTinh> lgt = GioiTinh.Get();
+            cbbGioiTinh.DataSource = lgt;
+            cbbGioiTinh.DisplayMember = "Name";
+            cbbGioiTinh.ValueMember = "Id";
+            // gán giá trị mặc định
+            cbbGioiTinh.SelectedIndex = 1;
+        }
+
+        private void btnThemSinhVien_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SinhVien sv = GetInputForm();
+                SinhVien.Them(sv);
+                DialogResult = DialogResult.OK;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+        }
+
+        private SinhVien GetInputForm()
+        {
+            if (txtMaSV.Text == "")
+            {
+                txtMaSV.Focus();
+                throw new Exception("Nhập mã Sinh Viên");
+            }
+            if (txtTenSV.Text == "")
+            {
+                txtTenSV.Focus();
+                throw new Exception("Nhập tên Sinh Viên");
+            }
+            if (txtDiaChi.Text == "")
+            {
+                txtTenSV.Focus();
+                throw new Exception("Nhập địa chỉ Sinh Viên");
+            }
+            GioiTinh gt = (GioiTinh)
+                cbbGioiTinh.SelectedItem;
+            return new SinhVien(
+                txtMaSV.Text,
+                txtTenSV.Text,
+                txtSDT.Text,
+                txtDiaChi.Text,
+                gt.Id,
+                dtpNgaySinh.Value
+                );
+        }
     }
 }

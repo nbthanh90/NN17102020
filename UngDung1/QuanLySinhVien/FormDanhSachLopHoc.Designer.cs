@@ -41,8 +41,9 @@
             this.dgvDanhSachLopHoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSachLopHoc.Location = new System.Drawing.Point(12, 122);
             this.dgvDanhSachLopHoc.Name = "dgvDanhSachLopHoc";
-            this.dgvDanhSachLopHoc.Size = new System.Drawing.Size(776, 316);
+            this.dgvDanhSachLopHoc.Size = new System.Drawing.Size(441, 316);
             this.dgvDanhSachLopHoc.TabIndex = 0;
+            this.dgvDanhSachLopHoc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachLopHoc_CellClick);
             this.dgvDanhSachLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachLopHoc_CellContentClick);
             // 
             // button1
@@ -59,11 +60,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(465, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvDanhSachLopHoc);
             this.Name = "FormDanhSachLopHoc";
-            this.Text = "FormDanhSachLopHoc";
+            this.Text = "DANH SÁCH LỚP HỌC";
             this.Load += new System.EventHandler(this.FormDanhSachLopHoc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachLopHoc)).EndInit();
             this.ResumeLayout(false);

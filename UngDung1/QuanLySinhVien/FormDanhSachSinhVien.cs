@@ -16,5 +16,34 @@ namespace QuanLySinhVien
         {
             InitializeComponent();
         }
+
+        private void dgvDanhSachSinhVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FormDanhSachSinhVien_Load(object sender, EventArgs e)
+        {
+            ResetDanhSachSinhVien();
+        }
+        /// <summary>
+        /// tải lại danh sach sinh viên
+        /// </summary>
+        private void ResetDanhSachSinhVien()
+        {
+            if (SinhVien.DanhSachSinhVien != null)
+                dgvDanhSachSinhVien.DataSource = SinhVien.DanhSachSinhVien;
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            Form fThemSinhVien = new FormThemSinhVien();
+            // mở form thêm sinh viên
+            var isOk = fThemSinhVien.ShowDialog();
+            // nếu mà có thêm
+            if (isOk == DialogResult.OK)
+                // cập nhật danh sách sinh viên
+                ResetDanhSachSinhVien();
+        }
     }
 }

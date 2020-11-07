@@ -17,11 +17,6 @@ namespace QuanLySinhVien
             InitializeComponent();
         }
 
-        private void thôngKeBáoCáoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -34,62 +29,70 @@ namespace QuanLySinhVien
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            var hoi = MessageBox.Show("Bạn có chắc muốn thoát?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (hoi == DialogResult.Cancel)
+            {
+                e.Cancel = true;
+            }
         }
 
         private void thêmLớpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form fThemLop = new FormThemLopHoc();
             fThemLop.ShowDialog();
-
         }
 
         private void danhSáchLớpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form fThemLop = new FormDanhSachLopHoc();
-            fThemLop.MdiParent = this;
-            fThemLop.Show();
+            Form fThemDanhSachLop = new FormDanhSachLopHoc();
+            fThemDanhSachLop.MdiParent = this;
+            fThemDanhSachLop.Show();
         }
 
         private void thêmSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form fThemLop = new FormThemSinhVien();
-            fThemLop.MdiParent = this;
-            fThemLop.Show();
+            Form fThemSinhVien = new FormThemSinhVien();
+            fThemSinhVien.MdiParent = this;
+            fThemSinhVien.Show();
         }
 
         private void danhSáchSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form fThemLop = new FormThemSinhVien();
+            Form fThemLop = new FormDanhSachSinhVien();
             fThemLop.MdiParent = this;
             fThemLop.Show();
         }
 
         private void sinhViênTheoLớpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form fThemLop = new FormBaoCaoSinhVienTheoLop();
-            fThemLop.MdiParent = this;
-            fThemLop.Show();
+            Form fSinhVienTheoLop = new FormBaoCaoSinhVienTheoLop();
+            fSinhVienTheoLop.MdiParent = this;
+            fSinhVienTheoLop.Show();
         }
 
         private void sinhViênHocLaiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form fThemLop = new FormBaoCaoSinhVienHocLai();
-            fThemLop.MdiParent = this;
-            fThemLop.Show();
+            Form fSinhVienHocLai = new FormBaoCaoSinhVienHocLai();
+            fSinhVienHocLai.MdiParent = this;
+            fSinhVienHocLai.Show();
 
-        }
-
-        private void điểmTheoiLớpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form fThemLop = new FormBaoCaoDiemTheoLop();
-            fThemLop.MdiParent = this;
-            fThemLop.Show();
         }
 
         private void quảnLýLớpToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void thôngKeBáoCáoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void điểmTheoiLớpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form fDiemTheoLop = new FormBaoCaoDiemTheoLop();
+            fDiemTheoLop.MdiParent = this;
+            fDiemTheoLop.Show();
         }
     }
 }

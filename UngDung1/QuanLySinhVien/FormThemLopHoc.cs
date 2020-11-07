@@ -25,27 +25,27 @@ namespace QuanLySinhVien
         {
             try
             {
-                LopHoc lh = GetInputForm();
-                lh.ThemLopHoc();
-                //MessageBox.Show(lh.LopHoc2String());
+                LopHoc lopHoc = GetInputForm();
+                lopHoc.ThemLopHoc();
+                //MessageBox.Show(lopHoc.LopHoc2String());
                 //Form fDanhSach = new FormDanhSachLopHoc();
                 //fDanhSach.Show();
                 DialogResult = DialogResult.OK;
                 //Close();
                 //SetInputForm(new LopHoc());
-                
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            
+
 
         }
-       /// <summary>
-       /// gán thông tin cho form
-       /// </summary>
-       /// <param name="lopHoc">obj lop hoc</param>
+        /// <summary>
+        /// gán thông tin cho form
+        /// </summary>
+        /// <param name="lopHoc">obj lop hoc</param>
         private void SetInputForm(LopHoc lopHoc)
         {
             txtMaLop.Text = lopHoc.MaLop;
@@ -58,21 +58,19 @@ namespace QuanLySinhVien
         /// <returns></returns>
         private LopHoc GetInputForm()
         {
-            if (txtMaLop.Text == "") {
-                throw new Exception("Vui Lòng Mã Nhóm.");
+            if (txtMaLop.Text == "")
+            {
+                throw new Exception("Vui Lòng Nhập Mã Nhóm.");
             }
             if (txtTenLop.Text == "")
             {
-                throw new Exception("Vui Lòng Tên Lớp.");
+                throw new Exception("Vui Lòng Nhập Tên Lớp.");
             }
             if (txtDiaChi.Text == "")
             {
-                throw new Exception("Vui Lòng Địa Chỉ.");
+                throw new Exception("Vui Lòng Nhập Địa Chỉ.");
             }
-            return new LopHoc(
-                txtMaLop.Text,
-                txtTenLop.Text,
-                txtDiaChi.Text);
+            return new LopHoc(txtMaLop.Text, txtTenLop.Text, txtDiaChi.Text);
         }
     }
 }
