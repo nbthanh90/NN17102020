@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSuaLopHoc));
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtTenLop = new System.Windows.Forms.TextBox();
@@ -79,11 +80,13 @@
             this.btnThemLop.TabIndex = 11;
             this.btnThemLop.Text = "Lưu";
             this.btnThemLop.UseVisualStyleBackColor = true;
+            this.btnThemLop.Click += new System.EventHandler(this.btnThemLop_Click);
             // 
             // txtMaLop
             // 
             this.txtMaLop.Location = new System.Drawing.Point(26, 38);
             this.txtMaLop.Name = "txtMaLop";
+            this.txtMaLop.ReadOnly = true;
             this.txtMaLop.Size = new System.Drawing.Size(203, 20);
             this.txtMaLop.TabIndex = 7;
             // 
@@ -104,6 +107,7 @@
             this.btnXoaLop.TabIndex = 13;
             this.btnXoaLop.Text = "Xóa";
             this.btnXoaLop.UseVisualStyleBackColor = true;
+            this.btnXoaLop.Click += new System.EventHandler(this.btnXoaLop_Click);
             // 
             // btnThoat
             // 
@@ -113,6 +117,7 @@
             this.btnThoat.TabIndex = 14;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // FormSuaLopHoc
             // 
@@ -128,6 +133,7 @@
             this.Controls.Add(this.btnThemLop);
             this.Controls.Add(this.txtMaLop);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormSuaLopHoc";
             this.Text = "SỬA LỚP HỌC";
             this.ResumeLayout(false);

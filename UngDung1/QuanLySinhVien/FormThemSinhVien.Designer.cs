@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormThemSinhVien));
             this.label1 = new System.Windows.Forms.Label();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.txtMaSV = new System.Windows.Forms.TextBox();
@@ -182,6 +183,7 @@
             this.Controls.Add(this.txtMaSV);
             this.Controls.Add(this.dtpNgaySinh);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormThemSinhVien";
             this.Text = "THÊM SINH VIÊN";
             this.Load += new System.EventHandler(this.FormThemSinhVien_Load);

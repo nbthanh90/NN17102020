@@ -19,3 +19,10 @@ F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.cs
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.csproj.CoreCompileInputs.cache
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.exe
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.pdb
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\bin\Debug\SuDungRandom.exe.config
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\bin\Debug\SuDungRandom.exe
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\bin\Debug\SuDungRandom.pdb
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.csprojAssemblyReference.cache
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.exe
+F:\Study_CSharp\NN17102020\UngDung1\SuDungRandom\obj\Debug\SuDungRandom.pdb

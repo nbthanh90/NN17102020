@@ -47,16 +47,16 @@ namespace QuanLySinhVien
         private void dgvDanhSachLopHoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             // lấy mã lớp học từ DataGridView
-            // Rows[e.RowIndex] dòng đang chọn
+            // Rows[e.RowIndex] dòng đang chọn / Cells[0] là lấy ô đầu tiên
             string maLopHoc = dgvDanhSachLopHoc.Rows[e.RowIndex].Cells[0].Value.ToString();
             LopHoc lhSua = LopHoc.LopHocById(maLopHoc);
+
+            // lưu lớp học cần sửa
             LopHoc.SetThongTinSuaLopHoc(lhSua);
             Form fSuaLopHoc = new FormSuaLopHoc();
             var isOk = fSuaLopHoc.ShowDialog();
             if (isOk == DialogResult.OK)
-            {
                 ResetDanhSach();
-            }
         }
         private void dgvDanhSachLopHoc_CellClick(object sender, DataGridViewCellEventArgs e)
         {

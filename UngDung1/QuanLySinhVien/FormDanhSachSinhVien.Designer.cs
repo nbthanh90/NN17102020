@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDanhSachSinhVien));
             this.dgvDanhSachSinhVien = new System.Windows.Forms.DataGridView();
             this.btnThem = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachSinhVien)).BeginInit();
@@ -61,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(568, 420);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dgvDanhSachSinhVien);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormDanhSachSinhVien";
             this.Text = "DANH SÁCH SINH VIÊN";
             this.Load += new System.EventHandler(this.FormDanhSachSinhVien_Load);

@@ -31,3 +31,14 @@ F:\Study_CSharp\NhatNghe20201017\UngDung1\UngDung1\obj\Debug\UngDung1.exe.manife
 F:\Study_CSharp\NhatNghe20201017\UngDung1\UngDung1\obj\Debug\UngDung1.application
 F:\Study_CSharp\NhatNghe20201017\UngDung1\UngDung1\obj\Debug\UngDung1.exe
 F:\Study_CSharp\NhatNghe20201017\UngDung1\UngDung1\obj\Debug\UngDung1.pdb
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\bin\Debug\UngDung1.exe.config
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\bin\Debug\UngDung1.exe.manifest
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\bin\Debug\UngDung1.application
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\bin\Debug\UngDung1.exe
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\bin\Debug\UngDung1.pdb
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\obj\Debug\UngDung1.csprojAssemblyReference.cache
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\obj\Debug\UngDung1.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\obj\Debug\UngDung1.exe.manifest
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\obj\Debug\UngDung1.application
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\obj\Debug\UngDung1.exe
+F:\Study_CSharp\NN17102020\UngDung1\UngDung1\obj\Debug\UngDung1.pdb

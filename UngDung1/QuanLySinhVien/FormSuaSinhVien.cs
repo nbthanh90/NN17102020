@@ -45,11 +45,9 @@ namespace QuanLySinhVien
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Thông Báo");
+                MessageBox.Show(ex.Message, "Thông Báo",MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
-            
         }
-
         private SinhVien GetInputForm()
         {
             
@@ -74,7 +72,6 @@ namespace QuanLySinhVien
                 dtpNgaySinh.Value
                 );
         }
-
         private void btnXoaSinhVien_Click(object sender, EventArgs e)
         {
             var isXoa = MessageBox.Show("Bạn muốn xóa sinh viên không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
@@ -83,8 +80,7 @@ namespace QuanLySinhVien
             SinhVien.Xoa(SinhVien.GetSinhVienSua().MaSV);
             DialogResult = DialogResult.OK;
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void btnThoat_Click(object sender, EventArgs e)
         {
             Close();
         }

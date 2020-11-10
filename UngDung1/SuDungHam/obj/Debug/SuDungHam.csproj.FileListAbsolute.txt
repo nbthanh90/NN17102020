@@ -19,3 +19,10 @@ C:\Users\NN\Documents\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.csprojAs
 C:\Users\NN\Documents\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
 C:\Users\NN\Documents\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
 C:\Users\NN\Documents\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe.config
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\bin\Debug\SuDungHam.exe
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\bin\Debug\SuDungHam.pdb
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.csprojAssemblyReference.cache
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.exe
+F:\Study_CSharp\NN17102020\UngDung1\SuDungHam\obj\Debug\SuDungHam.pdb

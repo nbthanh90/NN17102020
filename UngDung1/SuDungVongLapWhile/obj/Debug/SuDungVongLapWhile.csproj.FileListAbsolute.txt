@@ -12,3 +12,10 @@ F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVon
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.csproj.CoreCompileInputs.cache
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.exe
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.pdb
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\bin\Debug\SuDungVongLapWhile.exe.config
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\bin\Debug\SuDungVongLapWhile.exe
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\bin\Debug\SuDungVongLapWhile.pdb
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.csprojAssemblyReference.cache
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.csproj.CoreCompileInputs.cache
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.exe
+F:\Study_CSharp\NN17102020\UngDung1\SuDungVongLapWhile\obj\Debug\SuDungVongLapWhile.pdb
