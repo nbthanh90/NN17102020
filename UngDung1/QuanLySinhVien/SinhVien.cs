@@ -15,6 +15,34 @@ namespace QuanLySinhVien
         public bool GioiTinh { get; set; }
         public DateTime NgaySinh { get; set; }
         public static List<SinhVien> DanhSachSinhVien;
+        private static SinhVien ThongTinSinhVienSua;
+        /// <summary>
+        /// tìm sinh viên theo mã
+        /// </summary>
+        /// <param name="maSV"></param>
+        /// <returns></returns>
+        public static SinhVien SinhVienById(string maSV)
+        {
+            // var thay cho SinhVien
+            foreach (var sv in DanhSachSinhVien)
+            {
+                if (sv.MaSV == maSV)
+                    return sv;
+            }
+            return new SinhVien();
+        }
+        // gán thông tin sinh viên cần sửa
+        public static void SetSinhVienSua(SinhVien svSua)
+        {
+            ThongTinSinhVienSua = svSua;
+        }
+        public static SinhVien GetSinhVienSua()
+        {
+            if (ThongTinSinhVienSua == null)
+                return new SinhVien();
+            return ThongTinSinhVienSua;
+        }
+
         /// <summary>
         /// khởi tạo constractor SinhVien
         /// </summary>
@@ -32,6 +60,11 @@ namespace QuanLySinhVien
             DiaChi = diaChi;
             GioiTinh = gioiTinh;
             NgaySinh = ngaySinh;
+        }
+
+        public static List<SinhVien> GetDanhSachSinhVien()
+        {
+            return DanhSachSinhVien;
         }
 
         public SinhVien()

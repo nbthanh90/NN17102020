@@ -109,7 +109,7 @@
             this.Controls.Add(this.txtMaLop);
             this.Controls.Add(this.label1);
             this.Name = "FormThemLopHoc";
-            this.Text = "FormThemLopHoc";
+            this.Text = "THÊM LỚP HỌC";
             this.ResumeLayout(false);
             this.PerformLayout();
 

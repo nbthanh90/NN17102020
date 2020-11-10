@@ -38,3 +38,4 @@ C:\Users\NN\Documents\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVie
 C:\Users\NN\Documents\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
 C:\Users\NN\Documents\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormDanhSachSinhVien.resources
 C:\Users\NN\Documents\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormThemSinhVien.resources
+C:\Users\NN\Documents\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormSuaSinhVien.resources

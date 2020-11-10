@@ -16,12 +16,12 @@ namespace QuanLySinhVien
         public static List<GioiTinh> Get()
         {
             List<GioiTinh> lgt = new List<GioiTinh>();
-            // giới tính la Nam
+            // giới tính là Nam
             GioiTinh gtNam = new GioiTinh();
             gtNam.Id = Nam;
             gtNam.Name = "Nam";
             lgt.Add(gtNam);
-            // giới tính la Nữ
+            // giới tính là Nữ
             GioiTinh gtNu = new GioiTinh();
             gtNu.Id = Nu;
             gtNu.Name = "Nữ";

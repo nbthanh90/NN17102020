@@ -19,7 +19,15 @@ namespace QuanLySinhVien
 
         private void dgvDanhSachSinhVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            string maSV = dgvDanhSachSinhVien.Rows[e.RowIndex].Cells[0].Value.ToString();
+            SinhVien svSua = SinhVien.SinhVienById(maSV);
 
+            // lưu thông tin sinh viên cần sửa
+            SinhVien.SetSinhVienSua(svSua);
+            Form fSuaSV = new FormSuaSinhVien();
+            var isOk = fSuaSV.ShowDialog();
+            if (isOk == DialogResult.OK)
+                ResetDanhSachSinhVien();
         }
 
         private void FormDanhSachSinhVien_Load(object sender, EventArgs e)
@@ -32,7 +40,7 @@ namespace QuanLySinhVien
         private void ResetDanhSachSinhVien()
         {
             if (SinhVien.DanhSachSinhVien != null)
-                dgvDanhSachSinhVien.DataSource = SinhVien.DanhSachSinhVien;
+                dgvDanhSachSinhVien.DataSource = SinhVien.GetDanhSachSinhVien().ToList();
         }
 
         private void btnThem_Click(object sender, EventArgs e)

@@ -19,6 +19,7 @@ namespace QuanLySinhVien
 
         private void FormThemSinhVien_Load(object sender, EventArgs e)
         {
+            // khởi tạo danh sách giới tính
             List<GioiTinh> lgt = GioiTinh.Get();
             cbbGioiTinh.DataSource = lgt;
             cbbGioiTinh.DisplayMember = "Name";
@@ -38,8 +39,7 @@ namespace QuanLySinhVien
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            
+            } 
         }
 
         private SinhVien GetInputForm()

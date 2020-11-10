@@ -116,21 +116,21 @@
             // sinhViênTheoLớpToolStripMenuItem
             // 
             this.sinhViênTheoLớpToolStripMenuItem.Name = "sinhViênTheoLớpToolStripMenuItem";
-            this.sinhViênTheoLớpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sinhViênTheoLớpToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.sinhViênTheoLớpToolStripMenuItem.Text = "Sinh Viên Theo Lớp";
             this.sinhViênTheoLớpToolStripMenuItem.Click += new System.EventHandler(this.sinhViênTheoLớpToolStripMenuItem_Click);
             // 
             // sinhViênHocLaiToolStripMenuItem
             // 
             this.sinhViênHocLaiToolStripMenuItem.Name = "sinhViênHocLaiToolStripMenuItem";
-            this.sinhViênHocLaiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sinhViênHocLaiToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.sinhViênHocLaiToolStripMenuItem.Text = "Sinh Viên Học Lại";
             this.sinhViênHocLaiToolStripMenuItem.Click += new System.EventHandler(this.sinhViênHocLaiToolStripMenuItem_Click);
             // 
             // điểmTheoiLớpToolStripMenuItem
             // 
             this.điểmTheoiLớpToolStripMenuItem.Name = "điểmTheoiLớpToolStripMenuItem";
-            this.điểmTheoiLớpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.điểmTheoiLớpToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.điểmTheoiLớpToolStripMenuItem.Text = "Điểm Theo Lớp";
             this.điểmTheoiLớpToolStripMenuItem.Click += new System.EventHandler(this.điểmTheoiLớpToolStripMenuItem_Click);
             // 
@@ -151,7 +151,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "PHẦN MỀM QUẢN LÝ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);

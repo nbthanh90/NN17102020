@@ -12,6 +12,7 @@ namespace QuanLySinhVien
         public string TenLop { get; set; }
         public string DiaChi { get; set; }
         public static List<LopHoc> DanhSachLopHoc;
+        private static LopHoc ThongTinSuaLopHoc;
         public LopHoc()
         {
         }
@@ -23,10 +24,11 @@ namespace QuanLySinhVien
             DiaChi = diaChi;
         }
 
-        public string LopHoc2String(){
+        public string LopHoc2String()
+        {
             return string.Format("{0},{1},{2}",
                 MaLop,
-                TenLop, 
+                TenLop,
                 DiaChi);
         }
         /// <summary>
@@ -38,6 +40,49 @@ namespace QuanLySinhVien
             if (DanhSachLopHoc == null)
                 DanhSachLopHoc = new List<LopHoc>();
             DanhSachLopHoc.Add(this);
+        }
+        /// <summary>
+        /// xóa lớp học trong danh sách
+        /// </summary>
+        /// <param name="maLop"></param>
+        public static void Xoa(string maLop)
+        {
+            // lamda expression
+            DanhSachLopHoc.RemoveAll(lh => lh.MaLop == maLop);
+        }
+        public static void Sua(LopHoc lh)
+        {
+            Xoa(lh.MaLop);
+            ThemLopHoc(lh);
+        }
+
+        private static void ThemLopHoc(LopHoc lh)
+        {
+            if (DanhSachLopHoc == null)
+                DanhSachLopHoc = new List<LopHoc>();
+            DanhSachLopHoc.Add(lh);
+        }
+
+        public static void SetThongTinSuaLopHoc(LopHoc lhSua)
+        {
+            ThongTinSuaLopHoc = lhSua;
+        }
+        public static LopHoc GetThongTinSuaLopHoc()
+        {
+            if (ThongTinSuaLopHoc != null)
+                return ThongTinSuaLopHoc;
+            return new LopHoc();
+        }
+
+        public static LopHoc LopHocById(string maLopHoc)
+        {
+            if (DanhSachLopHoc != null)
+                foreach (var lopHoc in DanhSachLopHoc)
+                {
+                    if (lopHoc.MaLop == maLopHoc)
+                        return lopHoc;
+                }
+            return new LopHoc();
         }
     }
 }
