@@ -16,7 +16,6 @@ namespace QuanLySinhVien
         public LopHoc()
         {
         }
-
         public LopHoc(string maLop, string tenLop, string diaChi)
         {
             MaLop = maLop;
@@ -50,6 +49,14 @@ namespace QuanLySinhVien
             // lamda expression
             DanhSachLopHoc.RemoveAll(lh => lh.MaLop == maLop);
         }
+
+        public static List<LopHoc> GetDanhSachLopHoc()
+        {
+            if (DanhSachLopHoc == null)
+                return new List<LopHoc>();
+            return DanhSachLopHoc;
+        }
+
         public static void Sua(LopHoc lh)
         {
             Xoa(lh.MaLop);

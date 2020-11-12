@@ -94,5 +94,13 @@ namespace QuanLySinhVien
             fDiemTheoLop.MdiParent = this;
             fDiemTheoLop.Show();
         }
+
+        private void cậpNhậtBảngĐiểmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // gọi form bảng điểm
+            Form fBangDiem = new FormThemBangDiem();
+            //fBangDiem.MdiParent = this;
+            fBangDiem.ShowDialog();
+        }
     }
 }

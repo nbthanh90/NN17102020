@@ -55,3 +55,4 @@ F:\Study_CSharp\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.cspr
 F:\Study_CSharp\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
 F:\Study_CSharp\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
 F:\Study_CSharp\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\QuanLySinhVien\obj\Debug\QuanLySinhVien.FormThemBangDiem.resources

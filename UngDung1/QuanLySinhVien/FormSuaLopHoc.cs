@@ -14,7 +14,9 @@ namespace QuanLySinhVien
     {
         public FormSuaLopHoc()
         {
+            // dùng khởi tạo các đối tượng trên form
             InitializeComponent();
+
             SetInputForm(LopHoc.GetThongTinSuaLopHoc());
         }
         private void SetInputForm(LopHoc lopHoc)
@@ -33,19 +35,16 @@ namespace QuanLySinhVien
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Thông Báo");
+                MessageBox.Show(ex.Message, "Thông Báo",MessageBoxButtons.OKCancel,MessageBoxIcon.Error);
             }
         }
         private LopHoc GetInputForm()
         {
             if (txtTenLop.Text == "")
-            {
-                throw new Exception("Vui Lòng Nhập Tên Lớp.");
-            }
+                throw new Exception("Vui Lòng Nhập Tên Lớp");
             if (txtDiaChi.Text == "")
-            {
-                throw new Exception("Vui Lòng Nhập Địa Chỉ.");
-            }
+                throw new Exception("Vui Lòng Nhập Địa Chỉ");
+
             return new LopHoc(
                 txtMaLop.Text,
                 txtTenLop.Text,
@@ -56,10 +55,9 @@ namespace QuanLySinhVien
         {
             Close();
         }
-
         private void btnXoaLop_Click(object sender, EventArgs e)
         {
-            var isXoa = MessageBox.Show("Bạn muốn xóa lớp học không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            var isXoa = MessageBox.Show("Bạn có muốn xóa lớp học không?", "Thông Báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (isXoa != DialogResult.OK)
                 return;
             LopHoc.Xoa(LopHoc.GetThongTinSuaLopHoc().MaLop);
