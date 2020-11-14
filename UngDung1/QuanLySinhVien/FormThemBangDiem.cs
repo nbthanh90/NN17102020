@@ -33,7 +33,7 @@ namespace QuanLySinhVien
                 if (IsThem == 1)
                 {
                     // thêm
-                    BangDiem.Them(bd);
+
 
                 }
                 else
