@@ -15,6 +15,9 @@ namespace QuanLySinhVien
         // 1 là THÊM
         // 0 là SỬA
         private int IsThem = 1;
+        const int Sua = 0;
+        const int Them = 1;
+        
         public FormThemBangDiem()
         {
             InitializeComponent();
@@ -33,19 +36,28 @@ namespace QuanLySinhVien
                 if (IsThem == 1)
                 {
                     // thêm
-
-
+                    BangDiem.Them(bd);
+                    // reset data
+                    ResetData();
                 }
                 else
                 {
                     // sửa
-
+                    BangDiem.Sua(bd);
+                    IsThem = Them;
+                    // reset
+                    ResetData();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Thông Báo");
+                MessageBox.Show(ex.Message, "Thông Báo", MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
+        }
+
+        private void ResetData()
+        {
+            dgvBangDiem.DataSource = BangDiem.GetDanhSachBangDiem().ToList();
         }
 
         private BangDiem GetInputForm()
@@ -143,6 +155,36 @@ namespace QuanLySinhVien
             cbbSinhVien.DataSource = SinhVien.GetDanhSachSinhVien().ToList();
             cbbSinhVien.DisplayMember = "TenSV";
             cbbSinhVien.ValueMember = "MaSV";
+        }
+
+        private void dgvBangDiem_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            IsThem = Sua;
+            string MaSV = dgvBangDiem.Rows[e.RowIndex].Cells[0].Value.ToString();
+            string MaLop = dgvBangDiem.Rows[e.RowIndex].Cells[1].Value.ToString();
+                // lấy thông tin dòng cần sửa
+            BangDiem bdSua = BangDiem.BangDiemByMaSVMaLop(MaSV, MaLop);
+            // gán thông tin dòng thông tin cần sửa
+            SetInputForm(bdSua);
+        }
+
+        private void SetInputForm(BangDiem bdSua)
+        {
+            txtToan.Text = bdSua.MonToan.ToString();
+            txtLy.Text = bdSua.MonLy.ToString();
+            txtHoa.Text = bdSua.MonHoa.ToString();
+            cbbLopHoc.SelectedValue = bdSua.MaLop;
+            cbbSinhVien.SelectedValue = bdSua.MaSV;
+        }
+
+        private void btnXoaBangDiem_Click(object sender, EventArgs e)
+        {
+            var isOk = MessageBox.Show("Bạn có muốn xóa?", "Thông Báo",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            if (isOk != DialogResult.OK)
+                return;
+            BangDiem bdSua = GetInputForm();
+            BangDiem.Xoa(bdSua.MaLop, bdSua.MaSV);
+            ResetData();
         }
     }
 }

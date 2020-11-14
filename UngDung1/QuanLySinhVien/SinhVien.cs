@@ -64,6 +64,8 @@ namespace QuanLySinhVien
 
         public static List<SinhVien> GetDanhSachSinhVien()
         {
+            if (DanhSachSinhVien == null)
+                return new List<SinhVien>();
             return DanhSachSinhVien;
         }
 
