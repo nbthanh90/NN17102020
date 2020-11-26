@@ -28,6 +28,7 @@ namespace QuanLySinhVien
             var isOk = fSuaSV.ShowDialog();
             if (isOk == DialogResult.OK)
                 ResetDanhSachSinhVien();
+
         }
 
         private void FormDanhSachSinhVien_Load(object sender, EventArgs e)

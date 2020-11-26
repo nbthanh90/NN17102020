@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLySinhVien", "QuanLySinhVien\QuanLySinhVien.csproj", "{F4647530-9EFF-436B-9FF4-03FD13805EE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnectDB", "TestConnectDB\TestConnectDB.csproj", "{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{F4647530-9EFF-436B-9FF4-03FD13805EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4647530-9EFF-436B-9FF4-03FD13805EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4647530-9EFF-436B-9FF4-03FD13805EE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
