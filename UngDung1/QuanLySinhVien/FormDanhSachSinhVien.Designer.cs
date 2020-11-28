@@ -41,7 +41,7 @@
             this.dgvDanhSachSinhVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSachSinhVien.Location = new System.Drawing.Point(13, 64);
             this.dgvDanhSachSinhVien.Name = "dgvDanhSachSinhVien";
-            this.dgvDanhSachSinhVien.Size = new System.Drawing.Size(543, 344);
+            this.dgvDanhSachSinhVien.Size = new System.Drawing.Size(651, 344);
             this.dgvDanhSachSinhVien.TabIndex = 0;
             this.dgvDanhSachSinhVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachSinhVien_CellContentClick);
             // 
@@ -59,7 +59,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 420);
+            this.ClientSize = new System.Drawing.Size(676, 420);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dgvDanhSachSinhVien);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

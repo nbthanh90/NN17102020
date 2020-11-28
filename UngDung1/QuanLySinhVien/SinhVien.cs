@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,10 +12,10 @@ namespace QuanLySinhVien
     {
         public string MaSV { get; set; }
         public string TenSV { get; set; }
-        public string SDT { get; set; }
         public string DiaChi { get; set; }
-        public bool GioiTinh { get; set; }
+        public string SDT { get; set; }
         public DateTime NgaySinh { get; set; }
+        public bool GioiTinh { get; set; }
         public static List<SinhVien> DanhSachSinhVien;
         private static SinhVien ThongTinSinhVienSua;
         /// <summary>
@@ -24,13 +25,24 @@ namespace QuanLySinhVien
         /// <returns></returns>
         public static SinhVien SinhVienById(string maSV)
         {
+            string sql = @"SELECT * FROM tblSinhVien WHERE MaSV = '{0}'";
+            ConnectDB cdb = new ConnectDB();
+            SqlDataReader res = cdb.SelectQuery(string.Format(sql, maSV));
+            res.Read();
+            string tenSV = res.GetValue(1).ToString();
+            string diaChi = res.GetValue(2).ToString();
+            string sDT = res.GetValue(3).ToString();
+            string ngaySinh = res.GetValue(4).ToString();
+            string gioiTinh = res.GetValue(5).ToString();
+            SinhVien sv = new SinhVien(maSV, tenSV, sDT, diaChi, Boolean.Parse(gioiTinh), DateTime.Parse(ngaySinh));
+            return sv;
             // var thay cho SinhVien
-            foreach (var sv in DanhSachSinhVien)
-            {
-                if (sv.MaSV == maSV)
-                    return sv;
-            }
-            return new SinhVien();
+            //foreach (var sv in DanhSachSinhVien)
+            //{
+            //    if (sv.MaSV == maSV)
+            //        return sv;
+            //}
+
         }
         // gán thông tin sinh viên cần sửa
         public static void SetSinhVienSua(SinhVien svSua)
@@ -65,9 +77,25 @@ namespace QuanLySinhVien
 
         public static List<SinhVien> GetDanhSachSinhVien()
         {
-            if (DanhSachSinhVien == null)
-                return new List<SinhVien>();
-            return DanhSachSinhVien;
+            ConnectDB cdb = new ConnectDB();
+            SqlDataReader res = cdb.SelectQuery("SELECT * FROM tblSinhVien");
+            List<SinhVien> lsv = new List<SinhVien>();
+            while (res.Read())
+            {
+                string maSV = res.GetValue(0).ToString();
+                string tenSV = res.GetValue(1).ToString();
+                string diaChi = res.GetValue(2).ToString();
+                string sDT = res.GetValue(3).ToString();
+                string ngaySinh = res.GetValue(4).ToString();
+                string gioiTinh = res.GetValue(5).ToString();
+                SinhVien sv = new SinhVien(maSV, tenSV, sDT, diaChi, Boolean.Parse(gioiTinh), DateTime.Parse(ngaySinh));
+                lsv.Add(sv);
+            }
+            return lsv;
+
+            //if (DanhSachSinhVien == null)
+            //    return new List<SinhVien>();
+            //return DanhSachSinhVien;
         }
 
         public SinhVien()
@@ -88,7 +116,7 @@ namespace QuanLySinhVien
         }
         public string SinhVien2String()
         {
-            return string.Format(@"{0},{1},{2},{3},{4},{5}", MaSV, TenSV, SDT, DiaChi, GioiTinh, NgaySinh);
+            return string.Format("{0},{1},{2},{3},{4},{5}", MaSV, TenSV, DiaChi, SDT, NgaySinh, GioiTinh);
         }
         /// <summary>
         /// thêm sinh viên hiện tại vào danh sách
@@ -114,7 +142,7 @@ namespace QuanLySinhVien
         {
             //DanhSachSinhVien.RemoveAll(sv => sv.MaSV == maSV);
 
-            string sql = string.Format("DELETE FROM tblSinhVien WHERE MaSV=='{0}'", maSV);
+            string sql = string.Format("DELETE FROM tblSinhVien WHERE MaSV = '{0}'", maSV);
             ConnectDB ConDB = new ConnectDB();
             ConDB.InsertQuery(sql);
         }
@@ -124,13 +152,13 @@ namespace QuanLySinhVien
         /// <param name="sinhVien"></param>
         public static void Sua(SinhVien sv)
         {
-            string sql = string.Format(@"UPDATE tblSinhVien set
+            string sql = string.Format(@"UPDATE tblSinhVien SET
 TenSV = '{0}'
-, SDT = '{1}'
-, DiaChi = '{2}'
+, SDT = '{2}'
+, DiaChi = '{1}'
 , GioiTInh = '{3}'
 , NgaySinh = '{4}'
-WHERE MaSV = '{5}'", sv.TenSV, sv.SDT, sv.DiaChi, sv.GioiTinh == true ? 1 : 0, sv.MaSV);
+WHERE MaSV = '{5}'", sv.TenSV, sv.DiaChi, sv.SDT, sv.GioiTinh == true ? 1 : 0, sv.NgaySinh, sv.MaSV);
             ConnectDB ConDB = new ConnectDB();
             ConDB.InsertQuery(sql);
         }

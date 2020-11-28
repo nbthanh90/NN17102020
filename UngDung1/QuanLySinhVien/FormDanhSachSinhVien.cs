@@ -40,8 +40,7 @@ namespace QuanLySinhVien
         /// </summary>
         private void ResetDanhSachSinhVien()
         {
-            if (SinhVien.DanhSachSinhVien != null)
-                dgvDanhSachSinhVien.DataSource = SinhVien.GetDanhSachSinhVien().ToList();
+            dgvDanhSachSinhVien.DataSource = SinhVien.GetDanhSachSinhVien().ToList();
         }
 
         private void btnThem_Click(object sender, EventArgs e)

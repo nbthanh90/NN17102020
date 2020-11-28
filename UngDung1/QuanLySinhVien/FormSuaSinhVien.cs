@@ -30,8 +30,8 @@ namespace QuanLySinhVien
         {
             txtMaSV.Text = sv.MaSV;
             txtTenSV.Text = sv.TenSV;
-            txtDiaChi.Text = sv.DiaChi;
             txtSDT.Text = sv.SDT;
+            txtDiaChi.Text = sv.DiaChi;
             dtpNgaySinh.Value = sv.NgaySinh;
             cbbGioiTinh.SelectedValue = sv.GioiTinh;
         }

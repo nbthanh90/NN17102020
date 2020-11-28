@@ -45,7 +45,7 @@
             this.txtDiaChi.Location = new System.Drawing.Point(26, 129);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(203, 20);
-            this.txtDiaChi.TabIndex = 9;
+            this.txtDiaChi.TabIndex = 1;
             // 
             // label3
             // 
@@ -61,7 +61,7 @@
             this.txtTenLop.Location = new System.Drawing.Point(26, 86);
             this.txtTenLop.Name = "txtTenLop";
             this.txtTenLop.Size = new System.Drawing.Size(203, 20);
-            this.txtTenLop.TabIndex = 8;
+            this.txtTenLop.TabIndex = 0;
             // 
             // label2
             // 
@@ -77,7 +77,7 @@
             this.btnThemLop.Location = new System.Drawing.Point(26, 192);
             this.btnThemLop.Name = "btnThemLop";
             this.btnThemLop.Size = new System.Drawing.Size(75, 23);
-            this.btnThemLop.TabIndex = 11;
+            this.btnThemLop.TabIndex = 2;
             this.btnThemLop.Text = "Lưu";
             this.btnThemLop.UseVisualStyleBackColor = true;
             this.btnThemLop.Click += new System.EventHandler(this.btnThemLop_Click);
@@ -104,7 +104,7 @@
             this.btnXoaLop.Location = new System.Drawing.Point(154, 192);
             this.btnXoaLop.Name = "btnXoaLop";
             this.btnXoaLop.Size = new System.Drawing.Size(75, 23);
-            this.btnXoaLop.TabIndex = 13;
+            this.btnXoaLop.TabIndex = 3;
             this.btnXoaLop.Text = "Xóa";
             this.btnXoaLop.UseVisualStyleBackColor = true;
             this.btnXoaLop.Click += new System.EventHandler(this.btnXoaLop_Click);
@@ -114,7 +114,7 @@
             this.btnThoat.Location = new System.Drawing.Point(87, 250);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
-            this.btnThoat.TabIndex = 14;
+            this.btnThoat.TabIndex = 4;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
