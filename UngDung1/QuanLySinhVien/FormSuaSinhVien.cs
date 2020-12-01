@@ -68,8 +68,8 @@ namespace QuanLySinhVien
                 txtTenSV.Text,
                 txtSDT.Text,
                 txtDiaChi.Text,
-                gt.Id,
-                dtpNgaySinh.Value
+                dtpNgaySinh.Value,
+                gt.Id
                 );
         }
         private void btnXoaSinhVien_Click(object sender, EventArgs e)

@@ -66,8 +66,8 @@ namespace QuanLySinhVien
                 txtTenSV.Text,
                 txtSDT.Text,
                 txtDiaChi.Text,
-                gt.Id,
-                dtpNgaySinh.Value
+                dtpNgaySinh.Value,
+                gt.Id
                 );
         }
     }

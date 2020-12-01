@@ -53,7 +53,7 @@
             this.cbbGioiTinh.Location = new System.Drawing.Point(66, 276);
             this.cbbGioiTinh.Name = "cbbGioiTinh";
             this.cbbGioiTinh.Size = new System.Drawing.Size(315, 23);
-            this.cbbGioiTinh.TabIndex = 18;
+            this.cbbGioiTinh.TabIndex = 3;
             // 
             // label6
             // 
@@ -81,7 +81,7 @@
             this.txtDiaChi.Location = new System.Drawing.Point(66, 225);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(315, 21);
-            this.txtDiaChi.TabIndex = 17;
+            this.txtDiaChi.TabIndex = 2;
             // 
             // label4
             // 
@@ -99,7 +99,7 @@
             this.txtSDT.Location = new System.Drawing.Point(66, 173);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(315, 21);
-            this.txtSDT.TabIndex = 16;
+            this.txtSDT.TabIndex = 1;
             // 
             // label3
             // 
@@ -117,7 +117,7 @@
             this.txtTenSV.Location = new System.Drawing.Point(67, 113);
             this.txtTenSV.Name = "txtTenSV";
             this.txtTenSV.Size = new System.Drawing.Size(315, 21);
-            this.txtTenSV.TabIndex = 15;
+            this.txtTenSV.TabIndex = 0;
             // 
             // label2
             // 
@@ -135,7 +135,7 @@
             this.btnSuaSinhVien.Location = new System.Drawing.Point(66, 389);
             this.btnSuaSinhVien.Name = "btnSuaSinhVien";
             this.btnSuaSinhVien.Size = new System.Drawing.Size(136, 23);
-            this.btnSuaSinhVien.TabIndex = 22;
+            this.btnSuaSinhVien.TabIndex = 5;
             this.btnSuaSinhVien.Text = "Sửa Sinh Viên";
             this.btnSuaSinhVien.UseVisualStyleBackColor = true;
             this.btnSuaSinhVien.Click += new System.EventHandler(this.btnSuaSinhVien_Click);
@@ -155,7 +155,7 @@
             this.dtpNgaySinh.Location = new System.Drawing.Point(66, 331);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(315, 21);
-            this.dtpNgaySinh.TabIndex = 20;
+            this.dtpNgaySinh.TabIndex = 4;
             // 
             // label1
             // 
@@ -191,6 +191,7 @@
             // 
             // FormSuaSinhVien
             // 
+            this.AcceptButton = this.btnSuaSinhVien;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(448, 502);

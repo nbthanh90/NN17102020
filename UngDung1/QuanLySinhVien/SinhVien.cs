@@ -29,12 +29,12 @@ namespace QuanLySinhVien
             ConnectDB cdb = new ConnectDB();
             SqlDataReader res = cdb.SelectQuery(string.Format(sql, maSV));
             res.Read();
-            string tenSV = res.GetValue(1).ToString();
-            string diaChi = res.GetValue(2).ToString();
-            string sDT = res.GetValue(3).ToString();
-            string ngaySinh = res.GetValue(4).ToString();
-            string gioiTinh = res.GetValue(5).ToString();
-            SinhVien sv = new SinhVien(maSV, tenSV, sDT, diaChi, Boolean.Parse(gioiTinh), DateTime.Parse(ngaySinh));
+            string tenSV = res.GetValue(1).ToString().Trim();
+            string diaChi = res.GetValue(2).ToString().Trim();
+            string sDT = res.GetValue(3).ToString().Trim();
+            string ngaySinh = res.GetValue(4).ToString().Trim();
+            string gioiTinh = res.GetValue(5).ToString().Trim();
+            SinhVien sv = new SinhVien(maSV, tenSV, sDT, diaChi, DateTime.Parse(ngaySinh), Boolean.Parse(gioiTinh));
             return sv;
             // var thay cho SinhVien
             //foreach (var sv in DanhSachSinhVien)
@@ -65,14 +65,14 @@ namespace QuanLySinhVien
         /// <param name="diaChi"></param>
         /// <param name="gioiTinh"></param>
         /// <param name="ngaySinh"></param>
-        public SinhVien(string maSV, string tenSV, string sDT, string diaChi, bool gioiTinh, DateTime ngaySinh)
+        public SinhVien(string maSV, string tenSV, string diaChi, string sDT, DateTime ngaySinh, bool gioiTinh)
         {
             MaSV = maSV;
             TenSV = tenSV;
-            SDT = sDT;
             DiaChi = diaChi;
-            GioiTinh = gioiTinh;
+            SDT = sDT;
             NgaySinh = ngaySinh;
+            GioiTinh = gioiTinh;
         }
 
         public static List<SinhVien> GetDanhSachSinhVien()
@@ -82,13 +82,13 @@ namespace QuanLySinhVien
             List<SinhVien> lsv = new List<SinhVien>();
             while (res.Read())
             {
-                string maSV = res.GetValue(0).ToString();
-                string tenSV = res.GetValue(1).ToString();
-                string diaChi = res.GetValue(2).ToString();
-                string sDT = res.GetValue(3).ToString();
-                string ngaySinh = res.GetValue(4).ToString();
-                string gioiTinh = res.GetValue(5).ToString();
-                SinhVien sv = new SinhVien(maSV, tenSV, sDT, diaChi, Boolean.Parse(gioiTinh), DateTime.Parse(ngaySinh));
+                string maSV = res.GetValue(0).ToString().Trim();
+                string tenSV = res.GetValue(1).ToString().Trim();
+                string diaChi = res.GetValue(2).ToString().Trim();
+                string sDT = res.GetValue(3).ToString().Trim();
+                string ngaySinh = res.GetValue(4).ToString().Trim();
+                string gioiTinh = res.GetValue(5).ToString().Trim();
+                SinhVien sv = new SinhVien(maSV, tenSV, sDT, diaChi, DateTime.Parse(ngaySinh), Boolean.Parse(gioiTinh));
                 lsv.Add(sv);
             }
             return lsv;
@@ -152,13 +152,7 @@ namespace QuanLySinhVien
         /// <param name="sinhVien"></param>
         public static void Sua(SinhVien sv)
         {
-            string sql = string.Format(@"UPDATE tblSinhVien SET
-TenSV = '{0}'
-, SDT = '{2}'
-, DiaChi = '{1}'
-, GioiTInh = '{3}'
-, NgaySinh = '{4}'
-WHERE MaSV = '{5}'", sv.TenSV, sv.DiaChi, sv.SDT, sv.GioiTinh == true ? 1 : 0, sv.NgaySinh, sv.MaSV);
+            string sql = string.Format(@"UPDATE tblSinhVien SET TenSV = '{0}', SDT = '{2}', DiaChi = '{1}', GioiTInh = '{4}', NgaySinh = '{3}'WHERE MaSV = '{5}'", sv.TenSV, sv.DiaChi, sv.SDT, sv.NgaySinh, sv.GioiTinh == true ? 1 : 0, sv.MaSV);
             ConnectDB ConDB = new ConnectDB();
             ConDB.InsertQuery(sql);
         }

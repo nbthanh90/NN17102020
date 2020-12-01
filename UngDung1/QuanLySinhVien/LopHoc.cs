@@ -63,9 +63,9 @@ namespace QuanLySinhVien
             List<LopHoc> lLopHoc = new List<LopHoc>();
             while (res.Read())
             {
-                string maLop = res.GetValue(0).ToString();
-                string tenLop = res.GetValue(1).ToString();
-                string diaChi = res.GetValue(2).ToString();
+                string maLop = res.GetValue(0).ToString().Trim();
+                string tenLop = res.GetValue(1).ToString().Trim();
+                string diaChi = res.GetValue(2).ToString().Trim();
                 LopHoc lh = new LopHoc(maLop, tenLop, diaChi);
                 lLopHoc.Add(lh);
             }
