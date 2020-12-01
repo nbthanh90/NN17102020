@@ -1,0 +1,11 @@
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\bin\Debug\SuDungLinq.exe.config
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\bin\Debug\SuDungLinq.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\bin\Debug\SuDungLinq.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.csprojAssemblyReference.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.Form1.resources
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.Properties.Resources.resources
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.csproj.GenerateResource.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.csproj.CoreCompileInputs.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungLinq\obj\Debug\SuDungLinq.FormLoai.resources

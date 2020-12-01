@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLySinhVien", "QuanLySin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConnectDB", "TestConnectDB\TestConnectDB.csproj", "{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuDungLinq", "SuDungLinq\SuDungLinq.csproj", "{375A6A42-72F3-4E1A-834F-3268258F95CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B7AC06-011F-44C9-AD5B-AC2BBE978AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375A6A42-72F3-4E1A-834F-3268258F95CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375A6A42-72F3-4E1A-834F-3268258F95CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375A6A42-72F3-4E1A-834F-3268258F95CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375A6A42-72F3-4E1A-834F-3268258F95CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

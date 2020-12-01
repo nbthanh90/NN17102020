@@ -26,3 +26,10 @@ F:\Study_CSharp\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.cs
 F:\Study_CSharp\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.csproj.CoreCompileInputs.cache
 F:\Study_CSharp\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.exe
 F:\Study_CSharp\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\bin\Debug\PhuongTrinhBac2.exe.config
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\bin\Debug\PhuongTrinhBac2.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\bin\Debug\PhuongTrinhBac2.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.csprojAssemblyReference.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.csproj.CoreCompileInputs.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\PhuongTrinhBac2\obj\Debug\PhuongTrinhBac2.pdb

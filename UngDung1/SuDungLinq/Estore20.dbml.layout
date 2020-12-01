@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 18.625" name="Estore20">
+  <DataContextMoniker Name="/Estore20DataContext" />
+  <nestedChildShapes>
+    <classShape Id="8847c79d-540b-4932-9da9-84c59b075c74" absoluteBounds="6.25, 6.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/Estore20DataContext/BanBe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07fc68ac-8ee6-4a4f-85dd-eb5db641a511" absoluteBounds="6.265, 7.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03cd2264-a793-48c2-8273-e020cf2969f4" absoluteBounds="6.25, 4, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/Estore20DataContext/YeuThich" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c7389ab-b3ea-49bf-8723-77047fd1dc6c" absoluteBounds="6.265, 4.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f585293-df2a-4f79-887f-021c1ad25877" absoluteBounds="8.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/Estore20DataContext/CauHinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff57e862-64bc-40b1-a32f-c88df51381d8" absoluteBounds="8.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fcf683ab-a331-431c-ab03-52b5980860c9" absoluteBounds="6.25, 1, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/Estore20DataContext/ChiTietHD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d1b6e48-7f44-48ec-9018-6392c654fd15" absoluteBounds="6.265, 1.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4bfc4dd-f880-4409-b9ab-3f965ac6c022" absoluteBounds="3.5, 13.875, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/Estore20DataContext/ChuDe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce785719-4c01-4fcd-8456-690b78d0fda2" absoluteBounds="3.515, 14.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="61237cd8-4ee9-457f-babc-44044d8d10bd" absoluteBounds="6.25, 13.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/Estore20DataContext/GopY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb2ebb70-0d3c-40b9-9034-b4a6094a16ec" absoluteBounds="6.265, 13.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="928861dc-d888-43a9-bba0-821e686ad905" absoluteBounds="3.5, 3.5, 2, 2.9247054036458322">
+      <DataClassMoniker Name="/Estore20DataContext/HangHoa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="44ec885d-ae8d-4396-b74f-e3c429ecd2b9" absoluteBounds="3.515, 3.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="107821a9-2882-4d46-9d52-8ac441aa2b8d" absoluteBounds="3.5, 9, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/Estore20DataContext/HoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89351bf5-f3d6-471e-ad9a-f0357f748c92" absoluteBounds="3.515, 9.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e68e330b-b761-428b-b5f3-403ebc912cc8" absoluteBounds="3.5, 16.625, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/Estore20DataContext/HoiDap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="54240bf5-0ccd-4d0a-962d-6dbda2ab6dc8" absoluteBounds="3.515, 17.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f9b7c870-0594-497c-9cb5-357b73c9db9e" absoluteBounds="0.75, 10.25, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/Estore20DataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da37f4ce-416f-43b7-a0a3-9891681cb29c" absoluteBounds="0.765, 10.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6323675b-407b-497f-94e5-784c268bc582" absoluteBounds="0.75, 4.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Estore20DataContext/Loai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a708152a-5796-479e-b541-93f10554bdc6" absoluteBounds="0.765, 4.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95842f74-83d0-4539-8a43-4bdf4d90465a" absoluteBounds="8.75, 3.75, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/Estore20DataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ead8075-30d9-40c7-8d9a-235d52ca30e5" absoluteBounds="8.765, 4.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c309911d-29d8-47fd-a033-911b493a2cdf" absoluteBounds="0.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Estore20DataContext/NhaCungCap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6d5653c-67de-4772-8c26-0e90a3252e47" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="739d1bad-260d-4ce1-88db-eb275813b266" absoluteBounds="0.75, 8, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Estore20DataContext/NhanVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d36e6fc-cc28-46d3-b15c-c3ba6cee4c4f" absoluteBounds="0.765, 8.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 14.5681469726562); (6.25 : 14.5681469726562)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/ChuDe/ChuDe_GopY" />
+      <nodes>
+        <classShapeMoniker Id="a4bfc4dd-f880-4409-b9ab-3f965ac6c022" />
+        <classShapeMoniker Id="61237cd8-4ee9-457f-babc-44044d8d10bd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.42470540364583); (5.875 : 6.79970540364583); (5.875 : 6.5); (6.00357443490112 : 6.62857443490112 : JumpStart); (6.12142556509888 : 6.74642556509888 : JumpEnd); (6.25 : 6.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/Estore20DataContext/HangHoa/HangHoa_BanBe" />
+      <nodes>
+        <classShapeMoniker Id="928861dc-d888-43a9-bba0-821e686ad905" />
+        <classShapeMoniker Id="8847c79d-540b-4932-9da9-84c59b075c74" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.88544840494792); (5.97916666666667 : 4.88544840494792 : JumpStart); (6.14583333333333 : 4.88544840494792 : JumpEnd); (6.25 : 4.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/HangHoa/HangHoa_YeuThich" />
+      <nodes>
+        <classShapeMoniker Id="928861dc-d888-43a9-bba0-821e686ad905" />
+        <classShapeMoniker Id="03cd2264-a793-48c2-8273-e020cf2969f4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 3.5); (4.5 : 1.98159912109375); (6.25 : 1.98159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/HangHoa/HangHoa_ChiTietHD" />
+      <nodes>
+        <classShapeMoniker Id="928861dc-d888-43a9-bba0-821e686ad905" />
+        <classShapeMoniker Id="fcf683ab-a331-431c-ab03-52b5980860c9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.06153746153846); (6.0625 : 8.49903746153846); (6.0625 : 2.50365068164063); (6.25 : 2.50365068164063)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/HoaDon/HoaDon_ChiTietHD" />
+      <nodes>
+        <classShapeMoniker Id="107821a9-2882-4d46-9d52-8ac441aa2b8d" />
+        <classShapeMoniker Id="fcf683ab-a331-431c-ab03-52b5980860c9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 10.2515374615385); (3.125 : 9.87653746153846); (3.125 : 7.9375025); (3.16666666666667 : 7.9375025 : JumpStart); (3.33333333333333 : 7.9375025 : JumpEnd); (5.97916666666667 : 7.9375025 : JumpStart); (6.14583333333333 : 7.9375025 : JumpEnd); (6.25 : 7.9375025)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/KhachHang/KhachHang_BanBe" />
+      <nodes>
+        <classShapeMoniker Id="f9b7c870-0594-497c-9cb5-357b73c9db9e" />
+        <classShapeMoniker Id="8847c79d-540b-4932-9da9-84c59b075c74" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 11.7443734325921); (3.25 : 11.7443734325921); (3.25 : 6.625); (5.61696126302083 : 6.625 : JumpStart); (5.7836279296875 : 6.625 : JumpEnd); (5.79166666666667 : 6.625 : JumpStart); (6.14583333333333 : 6.625 : JumpEnd); (7.25 : 6.625); (7.25 : 5.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/KhachHang/KhachHang_YeuThich" />
+      <nodes>
+        <classShapeMoniker Id="f9b7c870-0594-497c-9cb5-357b73c9db9e" />
+        <classShapeMoniker Id="03cd2264-a793-48c2-8273-e020cf2969f4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 10.9667079470653); (3.10416666666667 : 10.9667079470653 : JumpStart); (3.42708333333333 : 10.9667079470653 : JumpEnd); (3.5 : 10.9667079470653)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/KhachHang/KhachHang_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="f9b7c870-0594-497c-9cb5-357b73c9db9e" />
+        <classShapeMoniker Id="107821a9-2882-4d46-9d52-8ac441aa2b8d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.91429768880208); (3.5 : 4.91429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/Loai/Loai_HangHoa" />
+      <nodes>
+        <classShapeMoniker Id="6323675b-407b-497f-94e5-784c268bc582" />
+        <classShapeMoniker Id="928861dc-d888-43a9-bba0-821e686ad905" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.36579956054688); (3.9687475 : 1.36579956054688); (3.9687475 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/NhaCungCap/NhaCungCap_HangHoa" />
+      <nodes>
+        <classShapeMoniker Id="c309911d-29d8-47fd-a033-911b493a2cdf" />
+        <classShapeMoniker Id="928861dc-d888-43a9-bba0-821e686ad905" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.55187968659856); (3.1875 : 9.98937968659856); (3.1875 : 14.5681469726562); (3.26041666666667 : 14.5681469726562 : JumpStart); (3.42708333333333 : 14.5681469726562 : JumpEnd); (3.5 : 14.5681469726562)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/NhanVien/NhanVien_ChuDe" />
+      <nodes>
+        <classShapeMoniker Id="739d1bad-260d-4ce1-88db-eb275813b266" />
+        <classShapeMoniker Id="a4bfc4dd-f880-4409-b9ab-3f965ac6c022" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.22707993331831); (3.04166666666667 : 9.22707993331831 : JumpStart); (3.33333333333333 : 9.22707993331831 : JumpEnd); (3.5 : 9.22707993331831)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/NhanVien/NhanVien_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="739d1bad-260d-4ce1-88db-eb275813b266" />
+        <classShapeMoniker Id="107821a9-2882-4d46-9d52-8ac441aa2b8d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.57373716105769); (3.19107443490112 : 10.0148115959588 : JumpStart); (3.30892556509888 : 10.1326627261566 : JumpEnd); (3.34375 : 10.1674871610577); (3.34375 : 17.5104484049479); (3.5 : 17.5104484049479)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Estore20DataContext/NhanVien/NhanVien_HoiDap" />
+      <nodes>
+        <classShapeMoniker Id="739d1bad-260d-4ce1-88db-eb275813b266" />
+        <classShapeMoniker Id="e68e330b-b761-428b-b5f3-403ebc912cc8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

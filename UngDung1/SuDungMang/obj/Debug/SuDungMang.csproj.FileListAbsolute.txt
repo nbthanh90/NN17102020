@@ -12,3 +12,10 @@ F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.csproj
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.csproj.CoreCompileInputs.cache
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.exe
 F:\Study_CSharp\NhatNghe20201017\UngDung1\SuDungMang\obj\Debug\SuDungMang.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\bin\Debug\SuDungMang.exe.config
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\bin\Debug\SuDungMang.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\bin\Debug\SuDungMang.pdb
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\obj\Debug\SuDungMang.csprojAssemblyReference.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\obj\Debug\SuDungMang.csproj.CoreCompileInputs.cache
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\obj\Debug\SuDungMang.exe
+C:\Users\NN\Documents\NN17102020\UngDung1\SuDungMang\obj\Debug\SuDungMang.pdb

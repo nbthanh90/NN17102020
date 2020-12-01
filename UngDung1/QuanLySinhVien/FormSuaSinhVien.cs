@@ -21,7 +21,7 @@ namespace QuanLySinhVien
             List<GioiTinh> lgt = GioiTinh.Get();
             cbbGioiTinh.DataSource = lgt;
             cbbGioiTinh.DisplayMember = "Name";
-            cbbGioiTinh.ValueMember = "Id";
+            //cbbGioiTinh.ValueMember = "Id";
 
             SetInputForm(SinhVien.GetSinhVienSua());
         }
