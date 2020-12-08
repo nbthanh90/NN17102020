@@ -41,6 +41,7 @@ namespace SuDungLinq
             this.btnXoa = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnTimKiem = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoai)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,6 +55,7 @@ namespace SuDungLinq
             this.dgvLoai.Size = new System.Drawing.Size(459, 264);
             this.dgvLoai.TabIndex = 0;
             this.dgvLoai.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLoai_CellContentClick);
+            this.dgvLoai.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLoai_CellValueChanged);
             // 
             // txtMaLoai
             // 
@@ -132,6 +134,7 @@ namespace SuDungLinq
             this.btnXoa.TabIndex = 7;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // txtTimKiem
             // 
@@ -151,12 +154,23 @@ namespace SuDungLinq
             this.btnTimKiem.UseVisualStyleBackColor = true;
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(276, 45);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(134, 29);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "SEARCH...";
+            // 
             // FormLoai
             // 
             this.AcceptButton = this.btnTimKiem;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(752, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnTimKiem);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.btnXoa);
@@ -192,5 +206,6 @@ namespace SuDungLinq
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.Label label4;
     }
 }
